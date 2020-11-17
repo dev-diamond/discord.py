@@ -1,6 +1,9 @@
 from setuptools import setup
 import re
 
+### START FROM HERE ###
+
+
 requirements = []
 with open('requirements.txt') as f:
   requirements = f.read().splitlines()
@@ -75,3 +78,6 @@ setup(name='discord.py',
         'Topic :: Utilities',
       ]
 )
+
+
+### THE END ###
